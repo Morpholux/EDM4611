@@ -6,15 +6,15 @@ PImage imgVirtuelle;
 PImage palette;
 
 void setup() {
-  size(600, 600, P2D);
+  size(600, 600);
   imgVirtuelle = createImage(width, height, RGB);
   palette = loadImage("palette.gif");
 
   // surface.setSize(img.width, img.height);
   // pixelDensity(displayDensity());
   background(0);
-  fill(255);
-  noStroke();
+  //fill(255);
+  //noStroke();
   palette.loadPixels();
 }
 
