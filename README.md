@@ -23,7 +23,7 @@ _ _ _
 
 ### Description des travaux d’atelier
 
-A1 . **Atelier Pixels** - semaine 2
+E1 . **Atelier Pixels** - semaine 2
 
 ![Maeda psychédélique](https://dl.dropboxusercontent.com/s/abzqccrq6iw17ud/maeda.jpg
 "Traitement d’unne image pixel par pixel")
@@ -37,3 +37,16 @@ Notions à considérer :
 <br>
 <br>
 
+E2 . **Atelier tracé vectoriel** - semaine 3
+
+![Structure folioles](https://dl.dropboxusercontent.com/s/967i1011w1vv3e4/folioles.jpg
+"Structuration des folioles d’une feuille")
+
+• Expérimenter avec la création d’un motif ou d’une structure graphique, potentiellement animée. Le dessin des figures se fait à l’aide d’une méthode exclusivement vectorielle, c’est-à-dire que les formes sont constituées de tracés (droites, courbes), et donc de points de contrôle (ancrages, leviers) pouvant être modifiés à travers le code. On évite l’utilisation des primitives 2D line(), rect() ou ellipse(), bien que ces dernières soient également de la famille des objets vectoriels. En combinant ces méthodes de dessin et l’exportation en format PDF, il vous sera possible de conserver l’accès à cette structure, contrairement à une sauvegarde matricielle.
+
+Notions à considérer :
+
+`vertex(), curve(), bezier(), curveVertex(), bezierVertex(), beginShape() endShape(), PShape`
+
+<br>
+<br>
