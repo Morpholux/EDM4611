@@ -50,3 +50,19 @@ Notions à considérer :
 
 <br>
 <br>
+
+E3 . **Atelier animation** - semaine 4
+
+![Quatre mouvements](https://dl.dropboxusercontent.com/s/43mw0pwvltokoir/quatre_mouvements.jpg
+"Distinction entre mouvement et trajectoire")
+
+• Créer des animations aux mouvements plus riches que ceux issus de simples interpolations temporelles linéaires (par incrémentation d’une valeur constante). Nous explorons d’abord les diverses possibilités du «moteur» d’une animation. On examine ensuite les méthodes qui vont permettre de modifier une valeur à l’aide de fonctions d’atténuation, le cas le plus simple étant un mouvement oscillatoire (sin, cos), puis les diverses formules d’interpolation temporelle courbe (tweening). Votre sketch devrait permettre de bien afficher les caractéristiques d’un mouvement organique, plutôt que mécanique.
+
+Notions à considérer :
+
+`frameCount, millis(), sin(), cos(), lerp(), noise()`
+
+`Fonctions de Penner (EaseIn, EaseOut, EaseInOut), Librairie Ani`
+
+<br>
+<br>
