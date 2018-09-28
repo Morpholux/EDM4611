@@ -66,3 +66,18 @@ Notions à considérer :
 
 <br>
 <br>
+
+E4 . **Atelier programmation orientée objet** - semaine 5
+
+![Objets](https://dl.dropboxusercontent.com/s/n3j1llgld7tw09w/objets.jpg
+"Affichage d’instances d’un objet")
+
+• La démultiplication d’une primitive dans un sketch par une technique visant à laisser une trace est rapidement contraignante : les figures ne sont plus modifiables une fois qu’elles sont dessinées. Une solution beaucoup plus intéressante consiste à créer autant d’instances que nécessaire, tout en conservant un accès à leurs paramètres, incluant celui d’être affiché. C’est la force de la programmation orientée objet (POO). Vous êtes donc conviés à construire un «univers» doté de «nombreuses réplications», des «entités» qui se ressemblent, mais qui sont bien plus que le simple clonage d’une classe d’origine. Bien au contraire, chaque instance permet l’encapsulation de paramètres uniques et spécifiques, avec des «variables membres» adressables en tout lieu, en tout temps.
+En clair, il faut construire une animation avec une multitude d’objets, chacun ayant un comportement unique.
+
+Notions à considérer :
+
+`class, ArrayList, <>, .size(), .add(), new, .clear(), .remove(), .get()`
+
+<br>
+<br>
