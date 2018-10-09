@@ -12,8 +12,11 @@ void setup() {
   noStroke();
   smooth(16);
 
-  s = loadShape("oeuf.obj");
+  //s = loadShape("oeuf.obj");
   //s = loadShape("egg.obj");
+  s = loadShape("egg_free_model.obj");
+  s.scale(0.03);
+  s.translate(0, -0.55, 0);
   //s = loadShape("oeuf_polygones.obj");
   //s = loadShape("oeuf_tesselation.obj");
   //s = loadShape("oeuf_quadball.obj");
@@ -28,7 +31,6 @@ void draw() {
 
   translate(width/2, (height/2)+100, -200);
 
-  //pushMatrix();
 
   rotateY(millis()*0.0001%TWO_PI);
   scale(-1, -1, 1);
@@ -55,6 +57,4 @@ void draw() {
    scale(scaleObj);
    shape(s);
    */
-
-  //popMatrix();
 }
