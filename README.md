@@ -100,3 +100,13 @@ Notions à considérer :
 
 <br>
 <br>
+
+A6 . **Atelier «Exportations» et «Librairies»** - semaine 7
+
+![Librairie](https://dl.dropboxusercontent.com/s/2rqrg9sdz53lui0/usage_librairies.jpg
+"Exemple usage Librairie rwmidi (Ruin Weisen MIDI)")
+
+• La consigne du dernier exercice consiste simplement à réaliser l’exploration d’une librairie de votre choix. Approfondir les options que propose la libraire, dans la mesure où vous pourriez faire une brève démonstration du potentiel de celle-ci. Les librairies à privilégier sont : OscP5, ControlP5, hemesh, peasycam, syphon (spout sur PC), toxiclibs, les librairies MIDI tels themidibus ou rwmidi et les librairies permettant l’exportation de tracés ou de géométries 3D (PDF, OBJ, DXF, et autres).
+
+<br>
+<br>
