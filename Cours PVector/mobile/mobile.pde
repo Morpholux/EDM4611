@@ -2,7 +2,7 @@
 // Syntaxe Processing version 3.4
 // mardi, 30 octobre 2018
 
-PVector loc, vel, acc;
+PVector loc, vel, acc, forcePonctuelle;
 
 void setup() {
   size(600, 600);
@@ -15,14 +15,16 @@ void setup() {
   vel = new PVector(0, 1, 0);
 
   acc = new PVector();
+  
+  forcePonctuelle = new PVector(0, -4, 0);
 }
 
 void draw() {
   //background(0);
 
   // 1. Mise à jour de l’accélération :
-  // Force verticale vers le bas, avec déviation gauche-droite
-  acc.set(random(-1, 1), 1, 0);
+  // Force verticale vers le bas, avec déviation aléatoire gauche-droite
+  acc.set(random(-0.2, 0.2), 0.5, 0);
   acc.setMag(0.2);
 
   // 2. Mise à jour de la vélocité :
@@ -47,10 +49,12 @@ void draw() {
   } else if (loc.y < 0) {
     vel.y *= -1;
   }
+  
+  fill(map(constrain(loc.y,300,600), 300, 600, 255, 0),255,map(constrain(loc.y,300,600), 300, 600, 255, 0));
 
   ellipse(loc.x, loc.y, 2, 2);
 }
 
 void mousePressed() {
-  println(vel.mag());
+  vel.add(forcePonctuelle);
 }
