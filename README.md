@@ -28,7 +28,7 @@ E1 . **Atelier Pixels** - semaine 2
 ![Maeda psychédélique](https://dl.dropboxusercontent.com/s/abzqccrq6iw17ud/maeda.jpg
 "Traitement d’unne image pixel par pixel")
 
-• Expérimenter avec les méthodes de lecture et d’écriture des composants d’un affichage matriciel, les pixels. Ceux-ci sont interprétés/altérés directement dans le sketch ou depuis des fichiers importés. On évite l’utilisation des commandes set() ou get() pour lire ou écrire la donnée de couleur. On lui préfère la commande pixels[]. On exploite la fonction permettant de convertir une position x,y dans le sketch vers un index dans le tableau des pixels, et vice versa. Enfin, on voit comment extraire les valeurs RGB ou HSB à l’aide d’opérations <i>Bitwise</i>. Voir le dossier comprenant les notes de cours.
+• Expérimentations avec les méthodes de lecture et d’écriture des composants d’un affichage matriciel, les pixels. Ceux-ci sont interprétés/altérés directement dans le sketch ou depuis des fichiers importés. On évite l’utilisation des commandes set() ou get() pour lire ou écrire la donnée de couleur. On lui préfère la commande pixels[]. On exploite la fonction permettant de convertir une position x,y dans le sketch vers un index dans le tableau des pixels, et vice versa. Enfin, on voit comment extraire les valeurs RGB ou HSB à l’aide d’opérations <i>Bitwise</i>. Voir le dossier comprenant les notes de cours.
 
 Notions à considérer :
 
@@ -42,7 +42,7 @@ E2 . **Atelier tracé vectoriel** - semaine 3
 ![Structure folioles](https://dl.dropboxusercontent.com/s/967i1011w1vv3e4/folioles.jpg
 "Structuration des folioles d’une feuille")
 
-• Expérimenter avec la création d’un motif ou d’une structure graphique, potentiellement animée. Le dessin des figures se fait à l’aide d’une méthode exclusivement vectorielle, c’est-à-dire que les formes sont constituées de tracés (droites, courbes), et donc de points de contrôle (ancrages, leviers) pouvant être modifiés à travers le code. On évite l’utilisation des primitives 2D line(), rect() ou ellipse(), bien que ces dernières soient également de la famille des objets vectoriels. En combinant ces méthodes de dessin et l’exportation en format PDF, il vous sera possible de conserver l’accès à cette structure, contrairement à une sauvegarde matricielle.
+• Expérimentations avec la création d’un motif ou d’une structure graphique, potentiellement animée. Le dessin des figures se fait à l’aide d’une méthode exclusivement vectorielle, c’est-à-dire que les formes sont constituées de tracés (droites, courbes), et donc de points de contrôle (ancrages, leviers) pouvant être modifiés à travers le code. On évite l’utilisation des primitives 2D line(), rect() ou ellipse(), bien que ces dernières soient également de la famille des objets vectoriels. En combinant ces méthodes de dessin et l’exportation en format PDF, il vous sera possible de conserver l’accès à cette structure, contrairement à une sauvegarde matricielle.
 
 Notions à considérer :
 
@@ -51,23 +51,7 @@ Notions à considérer :
 <br>
 <br>
 
-E3 . **Atelier animation** - semaine 4
-
-![Quatre mouvements](https://dl.dropboxusercontent.com/s/43mw0pwvltokoir/quatre_mouvements.jpg
-"Distinction entre mouvement et trajectoire")
-
-• Créer des animations aux mouvements plus riches que ceux issus de simples interpolations temporelles linéaires (par incrémentation d’une valeur constante). Nous explorons d’abord les diverses possibilités du «moteur» d’une animation. On examine ensuite les méthodes qui vont permettre de modifier une valeur à l’aide de fonctions d’atténuation, le cas le plus simple étant un mouvement oscillatoire (sin, cos), puis les diverses formules d’interpolation temporelle courbe (tweening). Votre sketch devrait permettre de bien afficher les caractéristiques d’un mouvement organique, plutôt que mécanique.
-
-Notions à considérer :
-
-`frameCount, millis(), sin(), cos(), lerp(), noise()`
-
-`Fonctions de Penner (EaseIn, EaseOut, EaseInOut), Librairie Ani`
-
-<br>
-<br>
-
-E4 . **Atelier programmation orientée objet** - semaine 5
+E3 . **Atelier programmation orientée objet** - semaine 4
 
 ![Objets](https://dl.dropboxusercontent.com/s/n3j1llgld7tw09w/objets.jpg
 "Affichage d’instances d’un objet")
@@ -81,7 +65,25 @@ Notions à considérer :
 <br>
 <br>
 
-A5 . **Atelier géométrie et espace 3D** - semaine 6
+E4 . **PVector** - semaine 5
+
+![Forces](https://dl.dropboxusercontent.com/s/2rc78aea7dpsrl5/forces.jpg
+"Gestion des forces grâce aux vecteurs")
+
+• Expérimentations avec l’objet PVector, qui dans un premier temps permet de simplement de sauvegarder des données de position sur 3 dimensions. Par ailleurs, ce type d’objet permet également de gérer le mouvement sans devoir passer par la méthode traditionnelle d’incrémentation de variables. On examinera les opérateurs de calculs sur les vecteurs. Ces derniers vont améliorer considérablement vos stratégies d’animation, en conférant aux structures de dessin des «vecteurs» de déplacements et l’attribution de forces. En d’autres mots, les objets seront «lancés» dans des directions précises, puis seront influencés par des facteurs externes (friction, déviation, etc.).
+
+Notions à considérer :
+
+`new PVector(), et composants .x, .y, .z`
+
+`Méthodes .set(), .add(), .sub(), .cross(), .mult(), .setMag(), .normalize(), .dist(), .angleBetween()`
+
+`Opérations statiques et non-statiques`
+
+<br>
+<br>
+
+E5 . **Atelier géométrie et espace 3D** - semaine 6
 
 ![Flèches](https://dl.dropboxusercontent.com/s/mugn2vnyf3g9nqg/arrows_sm.jpg
 "Flèches paramétriques dans un espace 3D")
@@ -101,7 +103,7 @@ Notions à considérer :
 <br>
 <br>
 
-A6 . **Atelier «Exportations» et «Librairies»** - semaine 7
+E6 . **Atelier «Exportations» et «Librairies»** - semaine 7
 
 ![Librairie](https://dl.dropboxusercontent.com/s/2rqrg9sdz53lui0/usage_librairies.jpg
 "Exemple usage Librairie rwmidi (Ruin Weisen MIDI)")
