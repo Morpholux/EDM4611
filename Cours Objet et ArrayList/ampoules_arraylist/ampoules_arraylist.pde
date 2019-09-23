@@ -20,6 +20,8 @@ void draw() {
 
   //  //println(ampoules.get(0).life);
   //}
+  
+    
 
   // faire l’itération à rebours
   for (int i = ampoules.size()-1; i >= 0; i--) {
@@ -29,19 +31,18 @@ void draw() {
 }
 
 void mousePressed() {
-  //Ampoule ampTemp = new Ampoule(mouseX, mouseY, 100+floor(random(101)));
+  //Ampoule ampTemp = new Ampoule(mouseX, mouseY, 200+floor(random(101)));
   //ampoules.add(ampTemp);
-
+  
   // posx, posy, life, id
-  ampoules.add(new Ampoule(mouseX, mouseY, 100+floor(random(101)), millis()));
+  ampoules.add(new Ampoule(mouseX, mouseY, 200+floor(random(101)), millis()));
 
   // Enhanced loop;
   for (Ampoule a : ampoules) {
-    if (a.id % 5 == 0) {
-      //println(a.id);
-      a.life += 50;
-    }
+    a.alpha = 255;
+    //println(a.id);
   }
+  //println();
 }
 
 void mouseReleased() {
