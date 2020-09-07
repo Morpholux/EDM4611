@@ -4,7 +4,7 @@ EDM4611
 Contenu du cours «Image de synthèse et interactivité : processus génératifs»<br>
 UQAM - Université du Québec à Montréal<br>
 Programme de Baccalauréat en médias interactifs<br>
-Session automne 2019
+Session automne 2020
 
 Enseignant : <a href="mailto:renaud.jean-francois@uqam.ca">Jean-François Renaud</a> (professeur)
 
@@ -18,12 +18,17 @@ _ _ _
 "Citation tirée d’une conférence donnée par Jessica Rosenkrantz")
 
 <br>
+
+![Mythes](https://dl.dropboxusercontent.com/s/39acg7jz6k1kkh5/mythes_artiste%20et%20controle.png
+"Mythes")
+
+<br>
 <br>
 _ _ _
 
 ### Description des travaux d’atelier
 
-E1 . **Atelier Pixels** - semaine 2
+E1 . **Traitements image matricielle** - semaine 3
 
 ![Maeda psychédélique](https://dl.dropboxusercontent.com/s/abzqccrq6iw17ud/maeda.jpg
 "Traitement d’unne image pixel par pixel")
@@ -37,7 +42,7 @@ Notions à considérer :
 <br>
 <br>
 
-E2 . **Atelier tracé vectoriel** - semaine 3
+E2 . **Traitements image vectorielle** - semaine 4
 
 ![Structure folioles](https://dl.dropboxusercontent.com/s/967i1011w1vv3e4/folioles.jpg
 "Structuration des folioles d’une feuille")
@@ -51,7 +56,7 @@ Notions à considérer :
 <br>
 <br>
 
-E3 . **Atelier programmation orientée objet** - semaine 4
+E3 . **Atelier programmation orientée objet / technique des instances** - semaine 5
 
 ![Objets](https://dl.dropboxusercontent.com/s/n3j1llgld7tw09w/objets.jpg
 "Affichage d’instances d’un objet")
@@ -65,7 +70,7 @@ Notions à considérer :
 <br>
 <br>
 
-E4 . **PVector** - semaine 5
+E4 . **PVector, forces et système de particules** - semaine 6
 
 ![Forces](https://dl.dropboxusercontent.com/s/2rc78aea7dpsrl5/forces.jpg
 "Gestion des forces grâce aux vecteurs")
@@ -83,7 +88,17 @@ Notions à considérer :
 <br>
 <br>
 
-E5 . **Atelier géométrie et espace 3D** - semaine 6
+**Atelier «Exportations» et «Librairies»** - semaine 7
+
+![Librairie](https://dl.dropboxusercontent.com/s/2rqrg9sdz53lui0/usage_librairies.jpg
+"Exemple usage Librairie rwmidi (Ruin Weisen MIDI)")
+
+• La consigne du dernier exercice consiste simplement à réaliser l’exploration d’une librairie de votre choix. Approfondir les options que propose la libraire, dans la mesure où vous pourriez faire une brève démonstration du potentiel de celle-ci. Les librairies à privilégier sont : OscP5, ControlP5, hemesh, peasycam, syphon (spout sur PC), toxiclibs, les librairies MIDI tels themidibus ou rwmidi et les librairies permettant l’exportation de tracés ou de géométries 3D (PDF, OBJ, DXF, et autres).
+
+<br>
+<br>
+
+**Atelier géométrie et espace 3D** - semaines 9 et 10
 
 ![Flèches](https://dl.dropboxusercontent.com/s/mugn2vnyf3g9nqg/arrows_sm.jpg
 "Flèches paramétriques dans un espace 3D")
@@ -99,16 +114,6 @@ Notions à considérer :
 `camera, lights(), ambientLight(), directionalLight(), pointLight(), spotLight(), texture()`
 
 `Librairie PeasyCam`
-
-<br>
-<br>
-
-E6 . **Atelier «Exportations» et «Librairies»** - semaine 7
-
-![Librairie](https://dl.dropboxusercontent.com/s/2rqrg9sdz53lui0/usage_librairies.jpg
-"Exemple usage Librairie rwmidi (Ruin Weisen MIDI)")
-
-• La consigne du dernier exercice consiste simplement à réaliser l’exploration d’une librairie de votre choix. Approfondir les options que propose la libraire, dans la mesure où vous pourriez faire une brève démonstration du potentiel de celle-ci. Les librairies à privilégier sont : OscP5, ControlP5, hemesh, peasycam, syphon (spout sur PC), toxiclibs, les librairies MIDI tels themidibus ou rwmidi et les librairies permettant l’exportation de tracés ou de géométries 3D (PDF, OBJ, DXF, et autres).
 
 <br>
 <br>
