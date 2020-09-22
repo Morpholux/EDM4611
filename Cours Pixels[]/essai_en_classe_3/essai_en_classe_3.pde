@@ -10,8 +10,6 @@ void setup() {
   imgVirtuelle = createImage(width, height, RGB);
   palette = loadImage("palette.gif");
 
-  // surface.setSize(img.width, img.height);
-  // pixelDensity(displayDensity());
   background(0);
   //fill(255);
   //noStroke();
@@ -19,7 +17,7 @@ void setup() {
 }
 
 void draw() {
-  //background(0);
+  background(0);
 
   imgVirtuelle.loadPixels();
 
@@ -27,18 +25,20 @@ void draw() {
   for (int y = 0; y<height; y++) {
     int pige = floor(random(palette.width*palette.height));
     for (int x = 0; x<width; x++) {
-      int pige2 = floor(random(40));
+      int pige2 = floor(random(4));
       color newC = palette.pixels[pige];
-      if (pige2 < 20) {
-        imgVirtuelle.pixels[(y*imgVirtuelle.width)+x] = color(red(newC), green(newC), blue(newC), 50 );
+      if (pige2 < 2) {
+        imgVirtuelle.pixels[(y*imgVirtuelle.width)+x] = color(red(newC), green(newC), blue(newC), 255 );
       } else {
         imgVirtuelle.pixels[(y*imgVirtuelle.width)+x] = newC;
       }
     }
   }
   imgVirtuelle.updatePixels();
-
-  image(imgVirtuelle, 0, 0);
+  
+  tint(255, 127);
+  image(imgVirtuelle, 0, 0, width, height*0.5);
+  image(imgVirtuelle, 0, 0, width*0.5, height);
 
   //println(frameRate);
 }

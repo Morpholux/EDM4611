@@ -8,8 +8,6 @@ color c;
 void setup() {
   size(100, 100);
   img = loadImage("capture.png");
-  //surface.setSize(img.width, img.height);
-  // pixelDensity(displayDensity());
   background(0);
   fill(255);
   noStroke();

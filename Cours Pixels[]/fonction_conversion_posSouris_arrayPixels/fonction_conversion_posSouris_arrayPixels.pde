@@ -2,7 +2,7 @@
 // Syntaxe Processing version 3.0b6
 // samedi, 12 septembre 2015
 
-int index;
+int index = 0;
 
 void setup() {
   size(50, 50);
@@ -13,10 +13,11 @@ void setup() {
 }
 
 void draw() {
-  background(0);
+  color gris = color(map(index, 0, (width*height)-1, 0, 255));
+  background(gris);
   index = positionXyVersIndex(mouseX, mouseY, width, height);
   loadPixels();
-  pixels[index] = color(255);
+  pixels[index] = color(256-(gris & 0xFF));
   updatePixels();
   println(index);
   //println(positionXyVersIndex(mouseX, mouseY, width, height));

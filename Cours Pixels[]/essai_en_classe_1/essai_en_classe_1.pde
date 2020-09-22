@@ -15,6 +15,7 @@ println((c >> 16) & 0xFF);
 
 color c2 = 255 << 24 | 79 << 16 | 207 << 8 | 31 ;
 //color c2 = 0xFF000000 | 79 << 16 | 207 << 8 | 31 ;
+println(binary(int(alpha(c2))));
 
 fill(c2);
 stroke(255);
