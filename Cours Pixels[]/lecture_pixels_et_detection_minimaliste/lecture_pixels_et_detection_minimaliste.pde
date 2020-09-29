@@ -8,7 +8,6 @@
 
 
 PImage img;
-color c;
 color cImg, cLecture;
 int index, resolutionImg, repereIndex;
 int r, g, b;
@@ -35,7 +34,7 @@ void draw() {
   fill(cImg);
   rect(width*0.5, height*0.5, 100, 100);
 
-
+  
   // Une autre forme d’analyse
   // La localisation d’une couleur particulière est désignée dans le sketch
   for (int i = 0; i <resolutionImg; i++) {
@@ -51,6 +50,8 @@ void draw() {
       break;
     }
   }
+  
+
   pushStyle();
   noFill();
   stroke(255);
@@ -59,6 +60,7 @@ void draw() {
   // Il sera généralement en amont sachant que la fouille dans le tableau s’interrompt dès que l’on trouve une équivalence.
   ellipse(indexVersPositionX(repereIndex), indexVersPositionY(repereIndex), 40, 40);
   popStyle();
+  
 }
 
 void mousePressed() {
@@ -70,7 +72,6 @@ void mousePressed() {
 void mouseMoved() {
   index = (positionXyVersIndex(constrain(mouseX, 0, width-1), constrain(mouseY, 0, height-1))); 
   cImg = img.pixels[index]; // évaluation des pixels de l’image chargés en mémoire
-  c = color((cImg >> 16) & 0xFF, (cImg >> 8) & 0xFF, cImg & 0xFF); // suivant la méthode BitShifting
 }
 
 // Fonction pour convertir la position X et Y d’une coordonnée de surface (mouseX, mouseY)
