@@ -9,7 +9,7 @@ void setup() {
   size(600, 600);
 
   background(0);
-  fill(255, 100);
+  fill(255, 150);
   noStroke();
 
   pos = new PVector(width/2, height/2, 0);
@@ -27,7 +27,7 @@ void setup() {
 }
 
 void draw() {
-  background(0);
+  //background(0);
 
   if (pos.y < height-10) { // si le mobile n’a pas dépassé la limite inférieure du sketch
     vel.add(gravite);
@@ -46,11 +46,7 @@ void draw() {
     fill(255, 0, 0);
     ellipse(pos.x, pos.y, 20, 20);
     popStyle();
-    //println(pos.x);
-    //println(pos.y);
-    //println(pos.z);
-    //println();
-
+    
     relancerMobile();
   }
 }

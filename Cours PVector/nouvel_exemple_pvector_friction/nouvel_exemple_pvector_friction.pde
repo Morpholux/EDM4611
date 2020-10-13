@@ -3,15 +3,15 @@
 // lundi, 12 octobre 2020
 
 PVector pos, vel, friction;
-int decompteFrames;
+int decompteFrames = 0;
 
 void setup() {
   size(600, 600);
-  
+
   background(0);
   fill(255);
   noStroke();
-  
+
   pos = new PVector(width/2, height/2, 0);
   vel = vel.random2D(); // retourne un vecteur, donc pas nécessaire de faire new PVector();
   //println(vel.mag());
@@ -31,7 +31,10 @@ void draw() {
     pos.add(vel);
   } else {
     vel.mult(0); // on arrête le mobile
-    decompteFrames = frameCount;
+    
+    if (decompteFrames == 0) {
+      decompteFrames = frameCount;
+    }
   }
 
   ellipse(pos.x, pos.y, 20, 20);
@@ -41,8 +44,8 @@ void draw() {
   stroke(127);
   ellipse(width/2, height/2, 485, 485);
   popStyle();
-  
-  if (decompteFrames == frameCount) {
+
+  if (decompteFrames == frameCount) { // pour imprimer une fois et non de façon continue
     println(pos.x);
     println(pos.y);
     println(pos.z);
@@ -56,4 +59,6 @@ void mousePressed() {
   vel.mult(10);
   friction = vel.copy();
   friction.mult(-0.02);
+  
+  decompteFrames = 0; // réinitialisation de la variable
 }
