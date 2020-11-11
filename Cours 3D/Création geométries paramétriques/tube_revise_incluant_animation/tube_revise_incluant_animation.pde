@@ -7,9 +7,9 @@ int nbSegments = 40;
 
 int nbPoints = nbSegments + 1;
 float rayonIdeal = 200;
-float hauteurStrip = 5;
+float hauteurStrip = 10;
 
-int nbStrips = 50;
+int nbStrips = 30;
 
 int nbAnneaux = nbStrips + 1;
 
@@ -80,8 +80,8 @@ void draw() {
 
   // Animation des anneaux ou du tube
   for (int i = 0; i < anneaux.size(); i++) {
-    float dephase = map(i, 0, anneaux.size()-1, 0, 500); //en millisecondes
-    float rayonReduit = map(i, 0, anneaux.size()-1, rayonIdeal, rayonIdeal*0.5); 
+    float dephase = map(i, 0, anneaux.size()-1, 0, 800); //en millisecondes
+    float rayonReduit = map(i, 0, anneaux.size()-1, rayonIdeal, rayonIdeal*0.25); 
     float deltaRayon = 10;
     float vitesseOscillation = 0.01;
     anneaux.get(i).rayon = rayonReduit + (deltaRayon * (sin((millis() + dephase) * vitesseOscillation)));
