@@ -19,6 +19,8 @@ _ _ _
 
 Ce cours forme aux méthodes computationnelles de fabrication d’images, de l’étape de leur conception jusqu’à leur diffusion. L’étudiant-e sera amené-e à réaliser des systèmes générateur d’images ou de rendus, ce qui sous-tend de réaliser des micro-programmes en mettant à contribution les ressources de calcul et d’automatisation d’un ordinateur. Comme l’expriment très bien Jessica Rosenkrantz et Jesse Louis-Rosenberg, les fondateurs de l’entreprise <i>Nervous System</i>, la distinction fondamentale qui doit être faite entre les médias traditionnels en création médiatique et ceux qui seront abordés dans ce cours repose sur l’exploitation de la <i>computation</i> à des fins créatives.
 
+Le code est notre média.
+
 <br>
 <br>
 _ _ _
@@ -44,7 +46,7 @@ E2 . **Visualisation d’échantillons (données)** - Matière vue à la semaine
 ![Pseudo data](https://dl.dropboxusercontent.com/s/fptnedrfzjh9myh/pseudo_data.jpg
 "Visualisation de données aléatoires")
 
-• Exploitation d’une collection de valeurs sous des formats divers (nombres, fractions, entiers, chaîne de caractères, signaux) dans le but de produire une représentation visuelle signifiante. L’image est la conséquence directe des données qui la génère. Évidemment, on tente de recourir à d’autres méthodes d’affichage que celles des graphiques offerts dans un tableur (histogramme à barres, pointes de tarte). Par ailleurs, on explorera la manipulation de données provenant de fichiers externes ou de générateurs pseudo-aléatoires.
+• Exploitation d’une collection de valeurs sous des formats divers (nombres binaires, fractions, entiers, chaînes de caractères, signaux) dans le but de produire une représentation visuelle intéressante. L’image est la conséquence directe des données qui la génère. Évidemment, on tente de recourir à d’autres méthodes d’affichage que celles des graphiques offerts dans un tableur (histogramme à barres, pointes de tarte). Par ailleurs, on examinera la manipulation de données provenant de fichiers externes ou de générateurs pseudo-aléatoires.
 
 Notions à considérer :
 
