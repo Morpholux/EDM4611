@@ -4,7 +4,7 @@ EDM4611
 Contenu du cours «Image de synthèse et interactivité : processus génératifs»<br>
 UQAM - Université du Québec à Montréal<br>
 Programme de Baccalauréat en médias interactifs<br>
-Session automne 2020
+Session automne 2021
 
 Enseignant : <a href="mailto:renaud.jean-francois@uqam.ca">Jean-François Renaud</a> (professeur)
 
@@ -17,37 +17,48 @@ _ _ _
 ![Our Medium is Computation](https://dl.dropboxusercontent.com/s/hsvcnobh727vwki/medium_is_computation.jpg
 "Citation tirée d’une conférence donnée par Jessica Rosenkrantz")
 
-<br>
-
-![Mythes](https://dl.dropboxusercontent.com/s/39acg7jz6k1kkh5/mythes_artiste%20et%20controle.png
-"Mythes")
+Ce cours forme aux méthodes computationnelles de fabrication d’images, de l’étape de leur conception jusqu’à leur diffusion. L’étudiant-e sera amené-e à réaliser des systèmes générateur d’images ou de rendus, ce qui sous-tend de réaliser des micro-programmes en mettant à contribution les ressources de calcul et d’automatisation d’un ordinateur. Comme l’expriment très bien Jessica Rosenkrantz et Jesse Louis-Rosenberg, les fondateurs de l’entreprise <i>Nervous System</i>, la distinction fondamentale qui doit être faite entre les médias traditionnels en création médiatique et ceux qui seront abordés dans ce cours repose sur l’exploitation de la <i>computation</i> à des fins créatives.
 
 <br>
 <br>
 _ _ _
 
-### Description des travaux d’atelier
+### Description des six travaux d’atelier
 
-E1 . **Traitements image matricielle** - semaine 3
+E1 . **Motifs 2D** - Matière vue à la semaine 2 et remise de l’exercice la semaine suivante
 
-![Maeda psychédélique](https://dl.dropboxusercontent.com/s/abzqccrq6iw17ud/maeda.jpg
-"Traitement d’unne image pixel par pixel")
+![Motif de dallage](https://dl.dropboxusercontent.com/s/nm8jseaghx0yd1y/motif_dallage.jpg
+"Construction d’un motif 2D, avec illusion 3D")
 
-• Expérimentations avec les méthodes de lecture et d’écriture des composants d’un affichage matriciel, les pixels. Ceux-ci sont interprétés/altérés directement dans le sketch ou depuis des fichiers importés. On évite l’utilisation des commandes get() ou set() pour lire ou écrire la donnée de couleur. On lui préfère la commande pixels[] et l’accès au tableau (<i>Array</i>) des données couleurs. On exploite la fonction permettant de convertir une position x,y dans le sketch vers un index dans le tableau des pixels, et vice versa. Enfin, on voit comment extraire les valeurs RGB ou HSB à l’aide d’opérations <i>Bitwise</i>. Voir le dossier comprenant les notes de cours.
+• Création d’un motif graphique et donc d’une structure présentant des règles précises de distribution appliquées à diverses formes simples. Le niveau d’ordre ou de désordre apparent est au choix. Certains règles de constitution du motif doivent permettre des variations, de telle sorte que l’on accède facilement à la création d’un nombre illimité de cas. Cet accès s’effectue dans la prise en main et le contrôle de <i>paramètres</i>.
 
 Notions à considérer :
 
-`pixels[], loadPixels(), updatePixels(), loadImage(), PImage`
+`Approches itératives, transformateurs géométriques, gestion de la couleur`
 
 <br>
 <br>
 
-E2 . **Traitements image vectorielle** - semaine 4
+E2 . **Visualisation d’échantillons (données)** - Matière vue à la semaine 3 et remise de l’exercice la semaine suivante
+
+![Pseudo data](https://dl.dropboxusercontent.com/s/fptnedrfzjh9myh/pseudo_data.jpg
+"Visualisation de données aléatoires")
+
+• Exploitation d’une collection de valeurs sous des formats divers (nombres, fractions, entiers, chaîne de caractères, signaux) dans le but de produire une représentation visuelle signifiante. L’image est la conséquence directe des données qui la génère. Évidemment, on tente de recourir à d’autres méthodes d’affichage que celles des graphiques offerts dans un tableur (histogramme à barres, pointes de tarte). Par ailleurs, on explorera la manipulation de données provenant de fichiers externes ou de générateurs pseudo-aléatoires.
+
+Notions à considérer :
+
+`Data parsing, nombres aléatoires et bruit procédural (random et noise), structures de distribution et approches statistiques`
+
+<br>
+<br>
+
+E3 . **Figures géométriques et organiques** - Matière vue à la semaine 4 et remise de l’exercice la semaine suivante
 
 ![Structure folioles](https://dl.dropboxusercontent.com/s/967i1011w1vv3e4/folioles.jpg
 "Structuration des folioles d’une feuille")
 
-• Expérimentations avec la création d’un motif ou d’une structure graphique, potentiellement animée. Le dessin des figures se fait à l’aide d’une méthode exclusivement vectorielle, c’est-à-dire que les formes sont constituées de tracés (droites, courbes), et donc de points de contrôle (ancrages, leviers) pouvant être modifiés à travers le code. On évite l’utilisation des primitives 2D line(), rect() ou ellipse(), bien que ces dernières soient également de la famille des objets vectoriels. En combinant ces méthodes de dessin et l’exportation en format PDF, il vous sera possible de conserver l’accès à cette structure, contrairement à une sauvegarde matricielle.
+• À venir.
 
 Notions à considérer :
 
@@ -56,64 +67,44 @@ Notions à considérer :
 <br>
 <br>
 
-E3 . **Atelier programmation orientée objet / technique des instances** - semaine 5
+E4 . **Scène 3D minimaliste** - Matière vue à la semaine 5 et remise de l’exercice la semaine suivante
 
-![Objets](https://dl.dropboxusercontent.com/s/n3j1llgld7tw09w/objets.jpg
-"Affichage d’instances d’un objet")
+![Mobiles en 3D](https://dl.dropboxusercontent.com/s/xjuftbmvajy3wcn/objet_3d.jpg
+"Mobiles suspendus")
 
-• La démultiplication d’une primitive dans un sketch par une technique visant à laisser une trace est rapidement contraignante : les figures ne sont plus modifiables une fois qu’elles sont dessinées. Une solution bien plus intéressante consiste à créer autant d’instances que nécessaire, tout en conservant un accès à leurs états. C’est la force de la programmation orientée objet (POO). En dérivant d’une classe commune, chaque instance permet l’encapsulation de paramètres personnalisables, incluant le fait de naître et de disparaître, avec des «variables membres» adressables en tout lieu, en tout temps. En clair, il faut construire une scène animée avec une multitude d’objets au mouvement et au caractère unique, des entités qui sont bien plus que le simple duplicata d’un modèle d’origine. Par exemple, des organismes se déplacent à des vitesses qui dépendent de leur taille.
+• À venir.
 
 Notions à considérer :
 
-`class, ArrayList, <>, .size(), .add(), new, .clear(), .remove(), .get()`
+`class`
 
 <br>
 <br>
 
-E4 . **PVector, forces et système de particules** - semaine 6
+E5 . **Tracés de particules** - Matière vue à la semaine 6 et remise de l’exercice la semaine suivante
 
 ![Forces](https://dl.dropboxusercontent.com/s/2rc78aea7dpsrl5/forces.jpg
 "Gestion des forces grâce aux vecteurs")
 
-• Expérimentations avec l’objet PVector, qui dans un premier temps permet de simplement de sauvegarder des données de position sur 3 dimensions. Par ailleurs, ce type d’objet permet également de gérer le mouvement sans devoir passer par la méthode traditionnelle d’incrémentation de variables. On examinera les opérateurs de calculs sur les vecteurs. Ces derniers vont améliorer considérablement vos stratégies d’animation, en conférant aux structures de dessin des «vecteurs» de déplacements et l’attribution de forces. En d’autres mots, les objets seront «lancés» dans des directions précises, puis seront influencés par des facteurs externes (friction, déviation, etc.).
+• À venir.
 
 Notions à considérer :
 
-`new PVector(), et composants .x, .y, .z`
-
-`Méthodes .set(), .add(), .sub(), .cross(), .mult(), .setMag(), .normalize(), .dist(), .angleBetween()`
-
-`Opérations statiques et non-statiques`
+`new PVector()`
 
 <br>
 <br>
 
-**Atelier «Exportations» et «Librairies»** - semaine 7
-
-![Librairie](https://dl.dropboxusercontent.com/s/2rqrg9sdz53lui0/usage_librairies.jpg
-"Exemple usage Librairie rwmidi (Ruin Weisen MIDI)")
-
-• La consigne du dernier exercice consiste simplement à réaliser l’exploration d’une librairie de votre choix. Approfondir les options que propose la libraire, dans la mesure où vous pourriez faire une brève démonstration du potentiel de celle-ci. Les librairies à privilégier sont : OscP5, ControlP5, hemesh, peasycam, syphon (spout sur PC), toxiclibs, les librairies MIDI tels themidibus ou rwmidi et les librairies permettant l’exportation de tracés ou de géométries 3D (PDF, OBJ, DXF, et autres).
-
-<br>
-<br>
-
-**Atelier géométrie et espace 3D** - semaines 9 et 10
+E6 . **Mouvement et styles d’animation** - Matière vue à la semaine 7 et remise de l’exercice à la semaine 9
 
 ![Flèches](https://dl.dropboxusercontent.com/s/mugn2vnyf3g9nqg/arrows_sm.jpg
 "Flèches paramétriques dans un espace 3D")
 
-• La gestion de la 3D dans Processing demeure rudimentaire : utilisation de géométries simples (seulement deux primitives, mais possibilité de modélisation paramétrique et d’importation de fichiers OBJ); distribution des objets dans un espace 3D; gestion de quelques paramètres d’éclairage. Rien de comparable aux environnements de production spécialisés, surtout si l’on visait une grande qualité au niveau des rendus. Mais Processing permet de se frotter aux règles mathématiques sous-jacentes à la réalisation de volumes et de mieux comprendre les composantes d’un maillage 3D (vertex, polygones). À la suite de cet atelier, vous êtes invité à construire un volume paramétrique, à l’éclairer et à l’animer à travers des transformateurs (translate, rotate, scale) ou des mouvements de caméra. La création d’un «ruban» ou d’un «tube» (une ligne avec une épaisseur) constitue un cas intéressant à explorer.
+• À venir.
 
 Notions à considérer :
 
-`mode P3D, coordonnées X Y Z, box(), sphere(), transformateurs géométriques, pushMatrix() et popMatrix(), PShape (modèle en format OBJ)`
-
-`beginShape(TRIANGLE_STRIP), beginShape(QUAD_STRIP)`
-
-`camera, lights(), ambientLight(), directionalLight(), pointLight(), spotLight(), texture()`
-
-`Librairie PeasyCam`
+`Interpolations et fonctions d’amortissement`
 
 <br>
 <br>
