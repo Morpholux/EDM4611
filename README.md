@@ -26,6 +26,10 @@ Le code est notre média.
 _ _ _
 
 ### Description des six travaux d’atelier
+Ci-dessous, vous trouverez un aperçu des travaux demandés en première partie du cours. Les explications demeurent sommaires et les illustrations ne doivent pas être interprétées comme le type de rendu idéal ou celui attendu par l’enseignant. Nous aurons l’occasion de démontrer la grande variété de possibilités que présente chacune des thématiques.
+
+<br>
+<br>
 
 E1 . **Motifs 2D** - Matière vue à la semaine 2 et remise de l’exercice la semaine suivante
 
@@ -46,11 +50,11 @@ E2 . **Visualisation d’échantillons (données)** - Matière vue à la semaine
 ![Pseudo data](https://dl.dropboxusercontent.com/s/fptnedrfzjh9myh/pseudo_data.jpg
 "Visualisation de données aléatoires")
 
-• Exploitation d’une collection de valeurs sous des formats divers (nombres binaires, fractions, entiers, chaînes de caractères, signaux) dans le but de produire une représentation visuelle intéressante. L’image est la conséquence directe des données qui la génère. Évidemment, on tente de recourir à d’autres méthodes d’affichage que celles des graphiques offerts dans un tableur (histogramme à barres, pointes de tarte). Par ailleurs, on examinera la manipulation de données provenant de fichiers externes ou de générateurs pseudo-aléatoires.
+• Exploitation d’une collection de valeurs sous divers formats (nombres binaires, fractions, entiers, chaînes de caractères, signaux numériques) dans le but de produire une représentation visuelle intéressante. L’image est la conséquence directe des données qui la génère. Évidemment, on tente de recourir à d’autres méthodes d’affichage que celles des graphiques offerts dans un tableur (histogramme à barres, pointes de tarte). Par ailleurs, on examinera la manipulation de données provenant de fichiers externes ou celles émanant de générateurs pseudo-aléatoires.
 
 Notions à considérer :
 
-`Data parsing, nombres aléatoires et bruit procédural (random et noise), structures de distribution et approches statistiques`
+`Data parsing, nombres aléatoires et bruit procédural (random et noise), structures de distribution, probabilités et calculs statistiques`
 
 <br>
 <br>
@@ -60,11 +64,11 @@ E3 . **Figures géométriques et organiques** - Matière vue à la semaine 4 et 
 ![Structure folioles](https://dl.dropboxusercontent.com/s/967i1011w1vv3e4/folioles.jpg
 "Structuration des folioles d’une feuille")
 
-• À venir.
+• Exploration des méthodes de constitution de figures paramétriques 2D ou 3D. Examen des grandes familles de tracés : linéaires, courbes (bézier ou Spline). Création de figures en mode contour ou par remplissage. Contrôle des points d’ancrage et des leviers. On tente de comparer les méthodes de production de figures polygonales géométriques avec celles des figures plus organiques (courbes, irrégulières). 
 
 Notions à considérer :
 
-`vertex(), curve(), bezier(), curveVertex(), bezierVertex(), beginShape() endShape(), PShape`
+`dessin vectoriel, vertex(), curve(), bezier(), curveVertex(), bezierVertex(), SVG, PDF, Point SOP`
 
 <br>
 <br>
@@ -74,39 +78,39 @@ E4 . **Scène 3D minimaliste** - Matière vue à la semaine 5 et remise de l’e
 ![Mobiles en 3D](https://dl.dropboxusercontent.com/s/xjuftbmvajy3wcn/objet_3d.jpg
 "Mobiles suspendus")
 
-• À venir.
+• Réalisation d’une scène 3D minimaliste, mais démontrant une certaine exploration des principales options qu’offre la constitution de ce genre d’environnement. Gestion des modèles, des textures pouvant être appliquées, du point de vue de la caméra, des éclairages et des catégories de lumière (et d’ombre).
 
 Notions à considérer :
 
-`class`
+`Espace 3D, SOPs, types de géométries, éclairage, texturage, caméras, coordonnées UV, navigation`
 
 <br>
 <br>
 
 E5 . **Tracés de particules** - Matière vue à la semaine 6 et remise de l’exercice la semaine suivante
 
-![Forces](https://dl.dropboxusercontent.com/s/2rc78aea7dpsrl5/forces.jpg
-"Gestion des forces grâce aux vecteurs")
+![Tracés résultant du déplacement de particules](https://dl.dropboxusercontent.com/s/56f5y9ergm3cwhe/traces_particules.jpg
+"Système de particules")
 
-• À venir.
+• Générateur de particules et gestion du comportement de déplacement d’un point à travers les paramètres du système. Exploration de la trace comme outil de dessin. Compréhension de l’utilisation des forces et des principes sous-jacents (vecteurs).
 
 Notions à considérer :
 
-`new PVector()`
+`Système de particules, vecteurs et normales, naissance et mort, application de forces, traces et feedback`
 
 <br>
 <br>
 
 E6 . **Mouvement et styles d’animation** - Matière vue à la semaine 7 et remise de l’exercice à la semaine 9
 
-![Flèches](https://dl.dropboxusercontent.com/s/mugn2vnyf3g9nqg/arrows_sm.jpg
-"Flèches paramétriques dans un espace 3D")
+![Police de caractères animée](https://dl.dropboxusercontent.com/s/4t3zu7ojzf265fc/animation_typo.jpg
+"Animation typographique")
 
-• À venir.
+• Les méthodes d’animation dans les logiciels d’intégration en temps réel requièrent d’être peaufinées, sans quoi les transformations sont strictement mécaniques (interpolation linéaire). Exploration des stratégies d’animation, avec ou sans keyframes, mais en regard des procédés de <i>tweening</i> et d’<i>easing</i> (soit les fonctions d’amortissement).
 
 Notions à considérer :
 
-`Interpolations et fonctions d’amortissement`
+`Transformations d’un état dans le temps, Interpolations et fonctions d’amortissement, images clés, timmer, lookup table, chemin et pas d’animation`
 
 <br>
 <br>
