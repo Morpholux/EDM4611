@@ -21,13 +21,21 @@ Ce cours forme aux méthodes computationnelles de fabrication d’images, de l�
 
 Le code est notre média.
 
-Liens vers autres GitHub dignes de mention:<br>
+<br>
+_ _ _
+
+<br>
+<br>
+
+Liens vers d’autres repositoires GitHub dignes de mention :<br>
 [Morphogenesis resources, de Jason Webb](https://github.com/jasonwebb/morphogenesis-resources)<br>
 On y retrouve une compilation très complète de bon nombre de procédés algorithmiques en usage dans la création de formes visuelles.
 
 <br>
-<br>
 _ _ _
+
+<br>
+<br>
 
 ### Description des six travaux d’atelier
 Ci-dessous, vous trouverez un aperçu des travaux demandés en première partie du cours. Les explications demeurent sommaires et les illustrations ne doivent pas être interprétées comme un résultat idéal ou le type d’image attendu par l’enseignant. Nous aurons l’occasion de démontrer la grande variété des possibilités de rendu que présente chacune des thématiques.
