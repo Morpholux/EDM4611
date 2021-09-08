@@ -26,7 +26,7 @@ Le code est notre média.
 _ _ _
 
 ### Description des six travaux d’atelier
-Ci-dessous, vous trouverez un aperçu des travaux demandés en première partie du cours. Les explications demeurent sommaires et les illustrations ne doivent pas être interprétées comme le type de rendu idéal ou celui attendu par l’enseignant. Nous aurons l’occasion de démontrer la grande variété de possibilités que présente chacune des thématiques.
+Ci-dessous, vous trouverez un aperçu des travaux demandés en première partie du cours. Les explications demeurent sommaires et les illustrations ne doivent pas être interprétées comme un résultat idéal ou le type d’image attendu par l’enseignant. Nous aurons l’occasion de démontrer la grande variété des possibilités de rendu que présente chacune des thématiques.
 
 <br>
 <br>
@@ -40,7 +40,7 @@ E1 . **Motifs 2D** - Matière vue à la semaine 2 et remise de l’exercice la s
 
 Notions à considérer :
 
-`Approches itératives, transformateurs géométriques, gestion de la couleur`
+`Approches itératives, boucles imbriquées, technique des instances dans TouchDesigner (instancing), transformateurs géométriques, gestion de la couleur`
 
 <br>
 <br>
@@ -50,7 +50,7 @@ E2 . **Visualisation d’échantillons (données)** - Matière vue à la semaine
 ![Pseudo data](https://dl.dropboxusercontent.com/s/fptnedrfzjh9myh/pseudo_data.jpg
 "Visualisation de données aléatoires")
 
-• Exploitation d’une collection de valeurs sous divers formats (nombres binaires, fractions, entiers, chaînes de caractères, signaux numériques) dans le but de produire une représentation visuelle intéressante. L’image est la conséquence directe des données qui la génère. Évidemment, on tente de recourir à d’autres méthodes d’affichage que celles des graphiques offerts dans un tableur (histogramme à barres, pointes de tarte). Par ailleurs, on examinera la manipulation de données provenant de fichiers externes ou celles émanant de générateurs pseudo-aléatoires.
+• Exploitation d’une collection de valeurs sous divers formats (nombres binaires, fractions, entiers, chaînes de caractères, signaux numériques) dans le but de produire une représentation visuelle riche et détaillée. L’image est la conséquence directe des données qui la génère. Évidemment, on tente de recourir à d’autres méthodes d’affichage que celles des graphiques offerts dans un tableur (histogramme à barres, pointes de tarte). Par ailleurs, on examinera la manipulation de données provenant de fichiers externes ou celles émanant de générateurs pseudo-aléatoires.
 
 Notions à considérer :
 
@@ -64,7 +64,7 @@ E3 . **Figures géométriques et organiques** - Matière vue à la semaine 4 et 
 ![Structure folioles](https://dl.dropboxusercontent.com/s/967i1011w1vv3e4/folioles.jpg
 "Structuration des folioles d’une feuille")
 
-• Exploration des méthodes de constitution de figures paramétriques 2D ou 3D. Examen des grandes familles de tracés : linéaires, courbes (bézier ou Spline). Création de figures en mode contour ou par remplissage. Contrôle des points d’ancrage et des leviers. On tente de comparer les méthodes de production de figures polygonales géométriques avec celles des figures plus organiques (courbes, irrégulières). 
+• Exploration des méthodes de constitution de figures paramétriques 2D ou 3D. Examen des grandes familles de tracés : linéaires, courbes (bézier ou Spline). Création de figures en mode contour ou par remplissage. Contrôle des points d’ancrage et des leviers, de jonctions et de terminaisons. On tente de comparer les méthodes de production de figures polygonales géométriques simples (primitives) avec celles des figures plus organiques (tracés courbes, formes irrégulières).
 
 Notions à considérer :
 
@@ -78,11 +78,11 @@ E4 . **Scène 3D minimaliste** - Matière vue à la semaine 5 et remise de l’e
 ![Mobiles en 3D](https://dl.dropboxusercontent.com/s/xjuftbmvajy3wcn/objet_3d.jpg
 "Mobiles suspendus")
 
-• Réalisation d’une scène 3D minimaliste, mais démontrant une certaine exploration des principales options qu’offre la constitution de ce genre d’environnement. Gestion des modèles, des textures pouvant être appliquées, du point de vue de la caméra, des éclairages et des catégories de lumière (et d’ombre).
+• Réalisation d’une scène 3D minimaliste, mais suffisamment complexe pour aborder le potentiel des procédés dans ce genre d’environnement. Gestion des modèles, des textures pouvant être appliquées, du point de vue et des mouvements de la caméra, des éclairages et de ses types de lumière. Le gestion des textures peut devenir complexe, sans compter le traitement des surfaces et les propriétés des matériaux, qui recoupent des notions de <i>shading</i>.
 
 Notions à considérer :
 
-`Espace 3D, SOPs, types de géométries, éclairage, texturage, caméras, coordonnées UV, navigation`
+`Espace 3D, SOPs, types de géométries, éclairage, texturage, caméras, coordonnées UV, navigation, quelques opérateurs MAT (Constant, Line et Phong)`
 
 <br>
 <br>
@@ -92,11 +92,11 @@ E5 . **Tracés de particules** - Matière vue à la semaine 6 et remise de l’e
 ![Tracés résultant du déplacement de particules](https://dl.dropboxusercontent.com/s/56f5y9ergm3cwhe/traces_particules.jpg
 "Système de particules")
 
-• Générateur de particules et gestion du comportement de déplacement d’un point à travers les paramètres du système. Exploration de la trace comme outil de dessin. Compréhension de l’utilisation des forces et des principes sous-jacents (vecteurs).
+• Générateur de particules et gestion du comportement de déplacement d’un point à travers les paramètres du système. Exploration de la trace comme outil de dessin. Compréhension de l’utilisation des forces et des principes sous-jacents (vecteurs). Évaluation des possibilités de production d’images complexes et d‘effets spéciaux reposant sur ces procédés.
 
 Notions à considérer :
 
-`Système de particules, vecteurs et normales, naissance et mort, application de forces, traces et feedback`
+`Système de particules, vecteurs (PVector) et normales, naissance et mort d’une particule (propriété Life), application de forces, traces et feedback`
 
 <br>
 <br>
@@ -106,7 +106,7 @@ E6 . **Mouvement et styles d’animation** - Matière vue à la semaine 7 et rem
 ![Police de caractères animée](https://dl.dropboxusercontent.com/s/4t3zu7ojzf265fc/animation_typo.jpg
 "Animation typographique")
 
-• Les méthodes d’animation dans les logiciels d’intégration en temps réel requièrent d’être peaufinées, sans quoi les transformations sont strictement mécaniques (interpolation linéaire). Exploration des stratégies d’animation, avec ou sans keyframes, mais en regard des procédés de <i>tweening</i> et d’<i>easing</i> (soit les fonctions d’amortissement).
+• Les méthodes d’animation dans les logiciels d’intégration en temps réel requièrent d’être peaufinées, sans quoi les transformations sont strictement mécaniques (interpolation linéaire). Exploration des stratégies d’animation, avec ou sans keyframes, mais en regard des procédés de <i>tweening</i> et d’<i>easing</i> (soit les fonctions d’amortissement). Développement de quelques mouvements typiques, dans l‘esprit du site [Patapap](https://patatap.com/).
 
 Notions à considérer :
 
