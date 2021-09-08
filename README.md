@@ -28,7 +28,7 @@ _ _ _
 <br>
 
 Liens vers d’autres repositoires GitHub dignes de mention :<br>
-[Morphogenesis resources, de Jason Webb](https://github.com/jasonwebb/morphogenesis-resources)<br>
+• [Morphogenesis resources, de Jason Webb](https://github.com/jasonwebb/morphogenesis-resources)<br>
 On y retrouve une compilation très complète de bon nombre de procédés algorithmiques en usage dans la création de formes visuelles.
 
 <br>
