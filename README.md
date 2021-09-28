@@ -118,7 +118,7 @@ E6 . **Mouvement et styles d’animation** - Matière vue à la semaine 7 et rem
 ![Police de caractères animée](https://dl.dropboxusercontent.com/s/4t3zu7ojzf265fc/animation_typo.jpg
 "Animation typographique")
 
-• Les méthodes d’animation dans les logiciels d’intégration en temps réel requièrent d’être peaufinées, sans quoi les transformations sont strictement mécaniques (interpolation linéaire). Exploration des stratégies d’animation, avec ou sans keyframes, mais en regard des procédés de <i>tweening</i> et d’<i>easing</i> (soit les fonctions d’amortissement). Développement de quelques mouvements typiques, dans l‘esprit du site [Patapap](https://patatap.com/).
+• Les méthodes d’animation dans les logiciels d’intégration en temps réel requièrent d’être peaufinées, sans quoi les transformations sont strictement mécaniques (interpolation linéaire). Exploration des stratégies d’animation, avec ou sans keyframes, mais en regard des procédés de <i>tweening</i> et d’<i>easing</i> (soit les fonctions d’amortissement). Développement de quelques mouvements typiques, dans l‘esprit du site [Patatap](https://patatap.com/).
 
 Notions à considérer :
 
