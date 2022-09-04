@@ -4,7 +4,7 @@ EDM4611
 Contenu du cours «Image de synthèse et interactivité : processus génératifs»<br>
 UQAM - Université du Québec à Montréal<br>
 Programme de Baccalauréat en médias interactifs<br>
-Session automne 2021
+Session automne 2022
 
 Enseignant : <a href="mailto:renaud.jean-francois@uqam.ca">Jean-François Renaud</a> (professeur)
 
@@ -37,13 +37,13 @@ _ _ _
 <br>
 <br>
 
-### Description des six travaux d’atelier
-Ci-dessous, vous trouverez un aperçu des travaux demandés en première partie du cours. Les explications demeurent sommaires et les illustrations ne doivent pas être interprétées comme un résultat idéal ou le type d’image attendu par l’enseignant. Nous aurons l’occasion de démontrer la grande variété des possibilités de rendu que présente chacune des thématiques.
+### Démonstration de quelques processus génératifs à considérer dans vos explorations
+Ci-dessous, vous trouverez un aperçu du type de travaux pouvant être réalisés en première partie du cours. Les explications demeurent sommaires et les illustrations ne doivent pas être interprétées comme un résultat idéal ou le type d’image attendu par l’enseignant. Nous aurons l’occasion de démontrer la grande variété des possibilités de rendu que présente chacune des thématiques.
 
 <br>
 <br>
 
-E1 . **Motifs 2D** - Matière vue à la semaine 2 et remise de l’exercice la semaine suivante
+Exemple 1 . **Motifs 2D**
 
 ![Motif de dallage](https://dl.dropboxusercontent.com/s/nm8jseaghx0yd1y/motif_dallage.jpg
 "Construction d’un motif 2D, avec illusion 3D")
@@ -57,7 +57,7 @@ Notions à considérer :
 <br>
 <br>
 
-E2 . **Visualisation d’échantillons (données)** - Matière vue à la semaine 3 et remise de l’exercice la semaine suivante
+Exemple 2 . **Visualisation d’échantillons (données)**
 
 ![Pseudo data](https://dl.dropboxusercontent.com/s/fptnedrfzjh9myh/pseudo_data.jpg
 "Visualisation de données aléatoires")
@@ -71,7 +71,7 @@ Notions à considérer :
 <br>
 <br>
 
-E3 . **Figures géométriques et organiques** - Matière vue à la semaine 4 et remise de l’exercice la semaine suivante
+Exemple 3 . **Figures géométriques et organiques**
 
 ![Structure folioles](https://dl.dropboxusercontent.com/s/967i1011w1vv3e4/folioles.jpg
 "Structuration des folioles d’une feuille")
@@ -85,7 +85,7 @@ Notions à considérer :
 <br>
 <br>
 
-E4 . **Scène 3D minimaliste** - Matière vue à la semaine 5 et remise de l’exercice la semaine suivante
+Exemple 4 . **Scène 3D**
 
 ![Mobiles en 3D](https://dl.dropboxusercontent.com/s/xjuftbmvajy3wcn/objet_3d.jpg
 "Mobiles suspendus")
@@ -99,7 +99,7 @@ Notions à considérer :
 <br>
 <br>
 
-E5 . **Tracés de particules** - Matière vue à la semaine 6 et remise de l’exercice la semaine suivante
+Exemple 5 . **Tracés de particules**
 
 ![Tracés résultant du déplacement de particules](https://dl.dropboxusercontent.com/s/56f5y9ergm3cwhe/traces_particules.jpg
 "Système de particules")
@@ -113,7 +113,7 @@ Notions à considérer :
 <br>
 <br>
 
-E6 . **Mouvement et styles d’animation** - Matière vue à la semaine 7 et remise de l’exercice à la semaine 9
+Exemple 6 . **Mouvement et styles d’animation**
 
 ![Police de caractères animée](https://dl.dropboxusercontent.com/s/4t3zu7ojzf265fc/animation_typo.jpg
 "Animation typographique")
