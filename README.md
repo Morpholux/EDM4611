@@ -8,6 +8,8 @@ Session automne 2022
 
 Enseignant : <a href="mailto:renaud.jean-francois@uqam.ca">Jean-François Renaud</a> (professeur)
 
+Le plan de cours est disponible ici : <a href="https://github.com/Morpholux/EDM4611/blob/master/Syllabus%20EDM4611_aut22.pdf">syllabus Automne 2022</a>
+
 <br>
 _ _ _
 
