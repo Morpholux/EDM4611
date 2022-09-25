@@ -1,0 +1,48 @@
+Cours sur l’image vectorielle
+
+1. Fondements du fichier vectoriel : mémorisation de valeurs (points dans l’espace), de commandes de rattachement de ces points et d’instructions de colorisation (remplissage, contour). Exemple d’un fichier EPS (postscript). Validation de la structure de base dans Illustrator. Format SVG.
+
+- - -
+
+2. Étapes classiques dans la construction de figures vectorielles
+- Élaborer des collections de positions (emplacements de points sur axes x, y, z)
+- Considérer les différentes manières d’accéder à ces données, ou de les organiser autrement.
+- Exploiter ces données pour distribuer des vertex, des points d’ancrage ou leviers
+- Considérer la réalisation de figures tracées (linéaires, courbes) et de figures fermées.
+
+- - -
+
+3. Formes de distribution
+- Sur axe linéaire. Voir principe lerp(), ou encore map().
+- Distribution sur axes cartésiens. Comprendre le fonctionnement des transformateurs géométriques (translate, scale, rotate) et l’impact de l’ordre des appels.
+- Distribution radiale. Comprendre la trigonométrie du cercle, les sin() et cos(), atan2(). Différence entre degrés (0 - 360) et radians (0 - TWO_PI).
+- Distribution sur des chemins courbes : voir bezierPoints ou curvePoints.
+
+- - -
+
+4. Type de figures
+- Linéaires et ouvertes ou fermées (surface pleine). Distinguer des points d’ancrage superposés de deux points fusionnés.
+- Rectilignes ou angulaires : lignes (segments), points, vertex.
+- Courbes : bézier, curve ou spline/nurbs. Points d’ancrage et leviers.
+- Géométriques (symétrie, régularité, etc.) ou organiques.
+
+- - -
+
+5. Approches dans Processing (voir tableau)
+- Distinguer tracés simples des «shapes» (beginShape(), endShape())
+- Profiter de la force de la programmation-objet pour des structures complexes.
+- Exportation du format vectoriel : Librairie PDF
+
+- - -
+
+6. Approches dans TouchDesigner
+- Construction des données
+- Utilisation des primitives ou élaboration d’une géométrie. Conversion de type. Complexité des opérateurs, le temps de trouver celui qui sert notre objectif.
+- Cas du Script SOP
+- Profiter de la forcer de cet environnement pour gérer l’animation
+
+- - -
+
+7. Projets à examiner
+- Animations de Stefan Reyniers
+- Animation segments de ligne
