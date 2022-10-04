@@ -1,0 +1,82 @@
+{
+	"etudiants": [
+		{
+			"prenom": "Héctor",
+			"date": [
+				{"annee": 1994, "mois": 1, "jour": 25}
+			]
+		},
+		{
+			"prenom": "Pénélope",
+			"date": [
+				{"annee": 1995, "mois": 4, "jour": 25}
+			]
+		},
+		{
+			"prenom": "Marilou",
+			"date": [
+				{"annee": 2001, "mois": 4, "jour": 30}
+			]
+		},
+		{
+			"prenom": "Juliette",
+			"date": [
+				{"annee": 2001, "mois": 7, "jour": 30}
+			]
+		},
+		{
+			"prenom": "Alexandra",
+			"date": [
+				{"annee": 1999, "mois": 12, "jour": 9}
+			]
+		},
+		{
+			"prenom": "Mélina",
+			"date": [
+				{"annee": 1997, "mois": 11, "jour": 21}
+			]
+		},
+		{
+			"prenom": "Joly",
+			"date": [
+				{"annee": 2000, "mois": 7, "jour": 25}
+			]
+		},
+		{
+			"prenom": "Guillaume",
+			"date": [
+				{"annee": 2001, "mois": 5, "jour": 23}
+			]
+		},
+		{
+			"prenom": "Julien",
+			"date": [
+				{"annee": 2000, "mois": 11, "jour": 17}
+			]
+		},
+		{
+			"prenom": "Maxime",
+			"date": [
+				{"annee": 2000, "mois": 5, "jour": 23}
+			]
+		},
+		{
+			"prenom": "Kévin",
+			"date": [
+				{"annee": 1990, "mois": 9, "jour": 7}
+			]
+		},
+		{
+			"prenom": "Francis",
+			"date": [
+				{"annee": 1978, "mois": 8, "jour": 22}
+			]
+		},
+		{
+			"prenom": "Camille",
+			"date": [
+				{"annee": 1998, "mois": 11, "jour": 22}
+			]
+		}
+	]
+}
